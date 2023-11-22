@@ -1,0 +1,14 @@
+D:\Programming\ChatApplication\obj\Debug\net7.0\ChatApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ChatApplication\obj\Debug\net7.0\ChatApplication.AssemblyInfoInputs.cache
+D:\Programming\ChatApplication\obj\Debug\net7.0\ChatApplication.AssemblyInfo.cs
+D:\Programming\ChatApplication\obj\Debug\net7.0\ChatApplication.csproj.CoreCompileInputs.cache
+D:\Programming\ChatApplication\bin\Debug\net7.0\ChatApplication.exe
+D:\Programming\ChatApplication\bin\Debug\net7.0\ChatApplication.deps.json
+D:\Programming\ChatApplication\bin\Debug\net7.0\ChatApplication.runtimeconfig.json
+D:\Programming\ChatApplication\bin\Debug\net7.0\ChatApplication.dll
+D:\Programming\ChatApplication\bin\Debug\net7.0\ChatApplication.pdb
+D:\Programming\ChatApplication\obj\Debug\net7.0\ChatApplication.dll
+D:\Programming\ChatApplication\obj\Debug\net7.0\refint\ChatApplication.dll
+D:\Programming\ChatApplication\obj\Debug\net7.0\ChatApplication.pdb
+D:\Programming\ChatApplication\obj\Debug\net7.0\ChatApplication.genruntimeconfig.cache
+D:\Programming\ChatApplication\obj\Debug\net7.0\ref\ChatApplication.dll
