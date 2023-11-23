@@ -6,6 +6,7 @@ class Program
     {
         Console.WriteLine("Enter your name: ");
         string userName = Console.ReadLine();
+        Console.WriteLine("Your chat room name is " + userName);
 
         User user = new User(userName); // Create a new User object
         ChatRoom chatRoom = new ChatRoom();
@@ -13,6 +14,7 @@ class Program
         bool isChatting = true;
         while (isChatting)
         {
+            Console.WriteLine("");
             Console.WriteLine("Type a message that other people can see and reply to, or 'exit' to exit the chat room");
             string messageContent = Console.ReadLine();
 
