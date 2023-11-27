@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 class ChatRoom
 {
     private List<Message> messages = new List<Message>();
@@ -14,7 +11,7 @@ class ChatRoom
     {
         foreach (var message in messages)
         {
-            Console.WriteLine($"{message.Sender.Name}: {message.Content}");
+            Console.WriteLine($"[{message.Sender.Name}] {message.Content}");
         }
     }
 }

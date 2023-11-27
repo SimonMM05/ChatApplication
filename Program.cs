@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Program
 {
@@ -6,17 +7,23 @@ class Program
     {
         Console.WriteLine("Enter your name: ");
         string userName = Console.ReadLine();
-        Console.WriteLine("Your chat room name is " + userName);
+        Console.WriteLine($"Your chat room name is {userName}");
 
-        User user = new User(userName); // Create a new User object
+        User user = new User(userName);
         ChatRoom chatRoom = new ChatRoom();
 
         bool isChatting = true;
         while (isChatting)
         {
-            Console.WriteLine("");
-            Console.WriteLine("Type a message that other people can see and reply to, or 'exit' to exit the chat room");
+            Console.WriteLine("Type a message or 'exit' to exit the chat room");
+
             string messageContent = Console.ReadLine();
+
+            Console.Write("[");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write($"{userName}");
+            Console.ResetColor();
+            Console.WriteLine($"]: {messageContent}");
 
             if (messageContent.ToLower() == "exit")
             {
