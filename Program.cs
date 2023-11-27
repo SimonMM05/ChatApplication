@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 class Program
 {
@@ -15,9 +14,13 @@ class Program
         bool isChatting = true;
         while (isChatting)
         {
-            Console.WriteLine("Type a message or 'exit' to exit the chat room");
+            Console.WriteLine(userName + " type a message or 'exit' to exit the chat room");
 
             string messageContent = Console.ReadLine();
+
+            Console.SetCursorPosition(0, Console.CursorTop - 1); // Move the cursor to the beginning of the input line
+            Console.Write(new string(' ', Console.WindowWidth)); // Clear the input line
+            Console.SetCursorPosition(0, Console.CursorTop); // Move the cursor back to the input line
 
             Console.Write("[");
             Console.ForegroundColor = ConsoleColor.Blue;
